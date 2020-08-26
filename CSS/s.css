@@ -1,0 +1,20 @@
+.col-md-3 i:hover{
+background-color: #1F5601;
+	color: #FFF;
+}
+
+.col-md-3 .card-title:hover{
+	color:#1F5601;
+}
+
+.card{
+	border: none;
+}
+
+.sembol:hover{
+	color:#1F5601;
+}
+
+.iletisim{
+	background-image: url("../images/map-image.png");
+}
