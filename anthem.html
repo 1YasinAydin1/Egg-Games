@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ANTHEM</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <link rel="SHORTCUT ICON" href="Images/ust_logo.png">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <body>
+        <!-- banner giriş -->
+        <div class="banner" id="yukarı">
+            <div class="row" style="position: absolute; width: 100%">
+                <div style="position: relative" class="col-md-3 col-sm-1 col-1 col-lg-2"></div>
+                <div class="col-md-2 col-sm-2 col-1 col-lg-3" style="position: relative;margin-left: -5px;margin-top: 16px"> <img src="Images/egg.png" class="egg" height="70px"> </div>
+                <div class="col-md-3 col-sm-4 col-1 col-lg-4" style="position: relative;z-index: 21;margin-left: 20px">
+                    <a href="index.html"> <img src="Images/logo.png" class="loghoss" height="130px"> </a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-1 col-lg-2 " style="z-index: 2;position: relative; margin-top: -15px;"> <img src="Images/games.png" class="games" height="110px"> </div>
+            </div>
+        </div>
+        <!-- banner çıkış-->
+        <div style=" position: -webkit-sticky;position: sticky; top: 0;z-index: 1;width: 100%; height: 1px;background-color: white; box-shadow: 0px 6px 10px #000"></div>
+        <!-- sticky giris-->
+        <div class="sticky">
+            <div class="dropdown">
+                <button class="btn  dropdown-toggle" data-toggle="dropdown" style="position: absolute;margin: -5px 2px;z-index: 2"></button>
+                <div class="dropdown-menu" style="margin: 20px 15px; background-color: aliceblue   ">
+                    <div style="float: left; border-right: 1px solid #cbc4c4;height: 395px"> <a class="dropdown-item dropdown-header" href="Aksiyon_oyunlar%C4%B1.html">Aksiyon Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Açık Dünya Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Macera Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">FPS Oyunları</a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Korku Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Platform Oyunları</a>
+                        <hr>
+                    </div>
+                    <div class="upp" style="float: right"> <a class="dropdown-item dropdown-header" href="#">Platform Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">RPG Dünya Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Savaş Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Spor Oyunları</a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Strateji Oyunları </a>
+                        <hr> <a class="dropdown-item dropdown-header" href="#">Yarış Oyunları</a>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <nav class="ust_linkler navbar navbar-expand-lg navbar-dark" style="position: absolute; ">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#linkler" style=" height:30px; margin-top:-9px;margin-left: 25px "><span class="navbar-toggler-icon" style="z-index: 1;margin-top: -5px;"></span></button>
+                <div class="collapse navbar-collapse" id="linkler">
+                    <ul class="navbar-nav Nesv">
+                        <li class="btn btn-block nav-item nav-menu" id="sasss" style="margin-top:8px; "> <a href="index.html">ANASAYFA</a></li>
+                        <li class="btn btn-block nav-item nav-menu" id="sasss"> <a href="istek.html">İSTEK</a></li>
+                        <li class="btn btn-block nav-item nav-menu" id="sasss"> <a href="araclar.html">ARAÇLAR</a></li>
+                        <li class="btn btn-block nav-item nav-menu" id="sasss"> <a href="iletisim.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="ust_linkler" style="float: right;margin: 0px 40px;  list-style: none;">
+                <!-- arama formu giriş-->
+                <li style="float: right;margin-left: 15px">
+                    <div class="arama" style="margin-top: -1px">
+                        <form role="search" method="get" id="searchform" action="#">
+                            <input placeholder="  Ara..." type="text" class="searchbox-input ara-text" style="padding: 10px; width: 150px;height: 25px; border:1px; border-radius: 10px">
+                            <button style="margin-left: -40px;margin-top: -5px" class="btn fa fa-search"></button>
+                        </form>
+                    </div>
+                </li>
+                <!-- arama formu cıkış-->
+                <li style="float: right;margin-left: 15px; cursor: pointer"><a data-toggle="modal" data-target="#uye"><i class="fa fa-child"></i> Üye Ol</a></li>
+                <li style="float: right;margin-left: 15px;cursor: pointer"><a data-toggle="modal" data-target="#giris"><i class="fa fa-sign-in"></i> Giriş Yap</a></li>
+            </ul>
+            <div style="box-shadow: 3px 3px 4px #000;margin-top: 29px; width: 100%;height: 5px;background: -webkit-linear-gradient(#c02121,#b20e0e);"></div>
+        </div>
+        <!--üye ol modulu giriş-->
+        <div class="modal fade" id="uye">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: #e5e5e5">
+                    <button class="btn btn-success disabled" disabled type="submit">Üye Ol </button>
+                    <ul class="mdl-sosmed row" style="list-style:none;margin-top: 20px">
+                        <div class="col-md-2" style="margin-left: 20px"></div>
+                        <li class="col-md-2 col-3"><a href="http://facebook.com"><i style="background-color: #3b5998;color: white" class="fa fa-facebook"></i></a></li>
+                        <li class="col-md-2 col-3"><a href="https://twitter.com/Torrentoyunlar2"><i style="background-color:#00a0d1;color: white" class="fa fa-twitter"></i></a></li>
+                        <li class="col-md-2 col-3"><a href="https://plus.google.com/"><i style="background-color:#dd4b39;color: white" class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                    <form style="padding: 25px;margin-top: -10px">
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi"> &nbsp;&nbsp;Kullanıcı Adı</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi"> &nbsp;&nbsp;Ad</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi">&nbsp;Soyad</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi">&nbsp;Şifre</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi">&nbsp;E-mail</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="modal-footer" style="margin-bottom: -20px">
+                            <button class="btn btn-success" type="submit"> Kaydol </button>
+                            <button class="btn btn-success" type="reset"> Reset </button>
+                        </div>
+                    </form>
+                    <button class="btn btn-danger" data-dismiss="modal" type="submit"> Çıkış </button>
+                </div>
+            </div>
+        </div>
+        <!--üye ol modulu cıkış-->
+        <!--giriş yap modulu giriş-->
+        <div class="modal fade" id="giris">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: #e5e5e5">
+                    <button class="btn btn-success disabled" disabled type="submit"> Giriş Yap </button>
+                    <ul class="mdl-sosmed row" style="list-style:none;margin-top: 20px">
+                        <div class="col-md-2" style="margin-left: 20px"></div>
+                        <li class="col-md-2 col-3"><a href="http://facebook.com"><i style="background-color: #3b5998;color: white" class="fa fa-facebook"></i></a></li>
+                        <li class="col-md-2 col-3"><a href="https://twitter.com/Torrentoyunlar2"><i style="background-color:#00a0d1;color: white" class="fa fa-twitter"></i></a></li>
+                        <li class="col-md-2 col-3"><a href="https://plus.google.com/"><i style="background-color:#dd4b39;color: white" class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                    <form style="padding: 25px;margin-top: -10px">
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi"> &nbsp;&nbsp;Kullanıcı Adı</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <label for="adi">&nbsp;Şifre</label>
+                                <input class="form-control" id="adi" placeholder="Giriniz"> </div>
+                        </div>
+                        <div class="modal-footer" style="margin-bottom: -20px">
+                            <button class="btn btn-success" type="submit"> Giriş </button>
+                            <button class="btn btn-success" type="reset"> Şifremi Unuttum </button>
+                        </div>
+                    </form>
+                    <button class="btn btn-danger" data-dismiss="modal" type="submit"> Çıkış </button>
+                </div>
+            </div>
+        </div>
+        <!--giriş yap modulu cıkış-->
+        <!-- sticky cıkış-->
+        <!-- content giris-->
+        <div style=" background-image: -webkit-linear-gradient(left top, #c5bcbc, #e7cccc, transparent), -webkit-linear-gradient(right top, #a59191, #eae1e1, transparent);background-attachment: fixed;background-size: cover;">
+            <a href="#yukarı" style="color: bisque">
+                <div class="sag fa fa-chevron-circle-up" style="font-size: 50px"> </div>
+            </a>
+
+            <div style="padding-top: 50px">
+                <div class="container-fluid">
+
+                    <div class="row" style="padding-left: 00px">
+                        <center>
+
+                            <div class="row container">
+                                <div class="col-lg-2"></div>
+                                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 100%; margin-bottom: 18px">
+                                    <div class="ustoyunlar"> <a href="metro-exodus.html"><img src="images/anthem.jpg" width="100%;" ></a> </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 col-lg-4 row">
+                                  <div class="col-lg-6">  </div>
+                                    <div class="tur">
+                                        <p><span>Tür</span>: <a href="#" rel="category tag">Aksiyon</a>,<a href="#" rel="category tag">Macera</a>, <a href="#" rel="category tag">FPS</a>, <a href="#" rel="category tag">Oyun</a>, <a href="#" rel="category tag">Yıldız Oyunlar</a></p>
+                                        <p><span>Platform</span>: PS4</p>
+                                        <p><span>Boyut</span>: 63 GB</p>
+                                        <p><span>Crack</span>: REDUX</p>
+                                        <p><span>Tarih</span>: 27 Mart 2019</p>
+                                        <p><span>Kaynak</span>: Public</p>
+                                        <p><span>Dil</span>: İngilizce</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-lg-8 col-10" >
+                                <h2 style="color: white;margin-left: 0px;font-family: sans-serif;text-shadow: 2px 3px 3px black;margin-top: 50px ">Anthem</h2>
+                                <hr>
+                                <p style="color: #7a7a7a"><br>
+                                    <span style="color: red">Anthem</span>  2019 Yıl çıkışlı bu oyun’da Harike Grafikleri ile Ve Benzersiz efekt, Açık dünyası harika manzaraları ve harika mekaniği ile adeta baş yapıtlar arasın’da bir oyun ve Oyun’da İster isek Tek başımıza İster isek Döret Kişilik bir takım olabilieceğizve Karakter’den istediğimizi seçip yönlendirebileceğimiz Bilim Kurgu Aksiyon Türünde Farklı bir oyun, Oyun’daki Bu Eşsiz Elbiseler İle İnsanüstü biri olacağız ve bir birin’den farklı donanımları kullanacağız, Bol Sayıda ve Bir birin’den Farklı Bol Çeşitli Türde Silahlar Kullancağımız Harika Bir Aksiyon Oyunu…<br><br>
+                                </p>
+
+                            </div>
+                            <hr>
+                            <div class="container" style="padding: 40px 0px 60px 0px">
+                                <img class="oyn_res" src="Images/ant.jpg" width="90%">
+                                <img class="oyn_res" src="Images/ant2.jpg" width="90%">
+                                <img class="oyn_res" src="Images/ant3.jpeg" width="90%">
+                                <img class="oyn_res" src="Images/ant4.jpg" width="90%">
+                            </div>
+                            <hr>
+                            <div class="container" style="padding: 60px 0px;">
+                                <video controls autoplay width="100%" poster="Images/ant3.jpeg">
+                                    <source src="Images/Anthem%20Launch%20Trailer.mp4"> </video>
+                            </div>
+                            <hr>
+                            <div class="container" style="padding: 60px 0px;">
+
+                                <p style="margin-bottom: 40px">
+                                    <strong>Minimum Sistem Gereksinimleri:</strong><br><br>
+İşletim Sistemi: 64-bit Windows 10<br>
+İşlemci: Intel Core i5 3570 veya AMD FX-6350<br>
+Bellek: 8 GB RAM<br>
+Grafik kartı: Nvidia GTX 760, AMD Radeon 7970<br>
+GPU RAM: 2 GB<br>
+Depolama: En az 50 GB boş alan<br>
+
+                                <hr>
+                                <p style="margin-top: 40px"><strong>Önerilen Sistem Gereksinimleri:</strong>
+                            <br>
+                            <br>
+İşletim Sistemi: 64-bit Windows 10<br>
+CPU: Intel Core i7 4790 3,6 GHz veya AMD Ryzen 3 1300X 3,5 GHz<br>
+RAM: 16 GB<br>
+GPU: Nvidia GTX 1060 / RTX 2060, AMD RX 480<br>
+GPU RAM: 4 GB<br>
+Depolama: En az 50 GB boş alan<br>
+
+
+                            </div>
+                            <img src="Images/downikon.png">
+                            <div class="asf" style="margin-top: 20px">
+                                <a href="#">
+                                    <div class="btn btn-block btn-success">
+                                        <center>
+                                            <h4 style="color: white;padding-top: 6px">Anthem indir - (Direkt indir)</h4>
+                                        </center>
+                                    </div>
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div style="width:100%;box-shadow: 0px 4px 8px #000;width: 100%;height: 5px; background: -webkit-linear-gradient(#c02121,#b20e0e);"></div>
+        <div class="footer"> 
+            <ul class="mdl-sosmed row" style="list-style:none;padding-top: 20px">
+                        <div style="margin-left: 5%" class="col-lg-2 col-md-2 col-sm-2 col-1"></div>
+                        <li class="col-lg-3 col-md-3 col-sm-3 col-3"><a href="http://facebook.com"><i style="background-color: #3b5998;color: white" class="fa fa-facebook"></i></a></li>
+                        <li class="col-lg-3 col-md-3 col-sm-3 col-3"><a href="https://twitter.com/Torrentoyunlar2"><i style="background-color:#00a0d1;color: white" class="fa fa-twitter"></i></a></li>
+                        <li class="col-lg-3 col-md-3 col-sm-3 col-3"><a href="https://plus.google.com/"><i style="background-color:#dd4b39;color: white" class="fa fa-google-plus"></i></a></li>
+                    </ul>
+            <center>© 2017 Copyright EGG GAMES</center>
+        </div>
+    </body>
+</body></html>
